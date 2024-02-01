@@ -1,0 +1,9 @@
+/.vs
+/Debug
+/Release
+/packages
+/in_config/Debug
+/in_config/Release
+/in_config/*.user
+/in_config/*.aps
+/in_config/*.filters
