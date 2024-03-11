@@ -1,0 +1,9 @@
+<Database>
+  <Device>
+    <ChipInfo Vendor="InPlay" Name="IN6XXE" WorkRAMAddr="0x21E000" WorkRAMSize="0x2000" Core="JLINK_CORE_CORTEX_M4" />
+    <!-- 512 KB internal code flash bank with 1 loader -->
+    <FlashBankInfo Name="Internal code flash" BaseAddr="0x00300000" AlwaysPresent="1" >
+      <LoaderInfo Name="Default" MaxSize="0x80000" Loader="IN6XXE_SPI_FLASH.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    </FlashBankInfo>
+  </Device>
+</Database>
